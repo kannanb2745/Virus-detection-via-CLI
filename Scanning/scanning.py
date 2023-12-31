@@ -59,13 +59,9 @@ def analyze_file(file_path, signatures):
                     end_offset = match.end()
                     located_signature = content[start_offset:end_offset].hex()
                     count += 1
-                    '''
-                    print(f"\nMalware Signature Detected in {file_path}: {signature_type}")
-                    print(f"Signature Type: {signature_type}")
-                    print(f"Start Offset: {start_offset}, End Offset: {end_offset}")
-                    print(f"Located Signature: {located_signature}\n")'''
+                    
     except FileNotFoundError:
-        print(f"File not found: {file_path}")    
+        print(f"{colorama.Fore.RED}File not found: {colorama.Fore.BLUE}{file_path}{colorama.Fore.RESET}")    
 
 def detect_malware_in_folder(folder_path):
     signatures = load_signatures()
@@ -77,7 +73,9 @@ def detect_malware_in_folder(folder_path):
 
 if __name__ == "__main__":
     print("\n\n")
+    print(colorama.Fore.RED)
     folder_path = input("Enter the folder path: ")
+    print(colorama.Fore.RESET)
     print("\n")
     start("SCANNING")
     detect_malware_in_folder(folder_path)
@@ -85,7 +83,7 @@ if __name__ == "__main__":
     print("\n\n")        
     print("------------------------SCANNED REPORT------------------------")
     print("\n\n")
-    print("THE TOTAL NUMBER OF MALWARE FOUND IN THE FOLDER PATH IS: ",count)  
+    print(f"THE TOTAL NUMBER OF MALWARE FOUND IN THE FOLDER PATH IS: {colorama.Fore.BLUE}",count)  
     print("\n\n")  
     print(colorama.Fore.RESET) 
 
