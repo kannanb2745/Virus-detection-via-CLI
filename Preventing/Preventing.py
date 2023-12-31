@@ -186,7 +186,7 @@ def detect_malware_in_folder(folder_path):
 if __name__ == "__main__":
     print("\n\n")
     print(colorama.Fore.RED)
-    print("Do you want to scan a file or a folder?")
+    print("Do you want to Prevent a file or a folder?")
     print(colorama.Fore.BLUE)
     print("1. File \n2. Folder \n")
     print(colorama.Fore.RED)
