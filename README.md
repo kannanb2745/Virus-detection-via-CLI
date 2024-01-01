@@ -4,7 +4,7 @@ This project, undertaken by our team comprising members `Madhavan M`, `Kannan B`
 
 # DEPLOYMENT OF SOFTWARE ON YOUR SYSTEM
 ### $ Python and Git are the required languages to run our package.
-### $ The input for scanning, detection, or penetration needs to be specified as the path of the file or folder.
+### $ The input form scanning, detection, or penetration needs to be specified as the path of the file or folder.
 ### $ It will clone our project directly for our repository. 
 
 # INSTALATION COMMANDS
