@@ -65,9 +65,9 @@ In our project, the malware scanning tool serves the purpose of assessing the ex
 #### To Install python https://www.python.org/downloads/
 #### To Install git https://git-scm.com/downloads
 #### If you face any error of importing module just run the following commands in terminal
-### pip install os 
-### pip install re 
-### pip install time
-### pip install colorama
+### $ pip install os 
+### $ pip install re 
+### $ pip install time
+### $ pip install colorama
 
 
