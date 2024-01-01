@@ -22,7 +22,7 @@ Switching the directory to BATCH_7_MINIPROJECT to gain access to the project con
 
 `dir` or `ls` (windows & Linux)
 
-##It will exhibit the available modules, such as:
+## It will exhibit the available modules, such as:
 ##### ATTACKING
 To chose `cd Attacking` It Will redirect to the Attacking module
 ##### DETECTING
