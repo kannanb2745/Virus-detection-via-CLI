@@ -20,7 +20,7 @@ Both links are identical, you can choose either one from the provided options.
 
 Switching the directory to BATCH_7_MINIPROJECT to gain access to the project contained within that folder.
 
-`dir` or 'ls' (windows & Linux)
+`dir` or `ls` (windows & Linux)
 
 ##It will exhibit the available modules, such as:
 ##### ATTACKING
