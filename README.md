@@ -1,18 +1,18 @@
 # EFFECTIVE MALWARE DETECTION AND SUSPICIOUS ACTIVITY PREVENTION 
 Effective malware detection and suspicious activity prevention are crucial components of cybersecurity strategies to safeguard computer systems and networks. These measures help identify and mitigate potential threats, protecting sensitive information and ensuring the integrity of digital assets.
-This project, undertaken by our team comprising members `Madhavan M`, `Kannan B`, and `Krishnakumar E`, involves the development and release of a malware detection package. This software enables users to identify malware within specific areas and conduct targeted scans on individual files within their systems.
+This project, undertaken by our team comprising members `KANNAN B`, `MADHAVAN M`, and `KRISHNA KUMAR E`, involves the development and release of a malware detection package. This software enables users to identify malware within specific areas and conduct targeted scans on individual files within their systems.
 
 # DEPLOYMENT OF SOFTWARE ON YOUR SYSTEM
 ### $ Python and Git are the required languages to run our package.
-### $ The input for scanning, detection, preventing or pentesting needs to be specified as the path of the file or folder.
+### $ The input for scanning, detection, preventing, or pen testing needs to be specified as the path of the file or folder.
 ### $ It will clone our project directly from our repository. 
 
 # INSTALATION COMMANDS
-git clone https://github.com/Madhavan-012004/BATCH_7_MINIPROJECT.git
+git clone https://github.com/kannanb2745/BATCH_7_MINIPROJECT.git
 
 `or`
 
-git clone https://github.com/kannanb2745/BATCH_7_MINIPROJECT.git 
+git clone https://github.com/Madhavan-012004/BATCH_7_MINIPROJECT.git
 
 Both links are identical, you can choose either one from the provided options.
 # TO DISPLAY MODULES
@@ -24,15 +24,15 @@ Switching the directory to BATCH_7_MINIPROJECT to gain access to the project con
 
 ## It will exhibit the available modules, such as:
 ##### ATTACKING
-To chose `cd Attacking` It Will redirect to the Attacking module
+To choose `cd Attacking` It Will redirect to the Attacking module
 ##### DETECTING
-To chose `cd Detecting` It Will redirect to the Detecting module
+To choose `cd Detecting` It Will redirect to the Detecting module
 ##### PENTESTING 
-To chose `cd Pentesting` It Will redirect to the Pentesting module
+To choose `cd Pentesting` It Will redirect to the Pentesting module
 ##### PREVENTING 
-To chose `cd Preventing` It Will redirect to the Preventing module
+To choose `cd Preventing` It Will redirect to the Preventing module
 ##### SCANNING
-To chose `cd Scanning` It Will redirect to the Scanning module
+To choose `cd Scanning` It Will redirect to the Scanning module
 
 # TO RUN
 Following the directory change to the required module, necessary for task execution, you can proceed with the designated activities within that specific module.
@@ -42,7 +42,7 @@ Following the directory change to the required module, necessary for task execut
 Following the directory change to the required module, excluding the attacking module, proceed with the designated activities within the specified module for task execution.
 ## FOR ATTACKING
 `python DRipper.py -s <ip address> -t 135`
-## **Attacking **
+## **Attacking**
 A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the normal operation of a network, service, or website by overwhelming it with a massive volume of traffic. Utilizing multiple compromised computers or devices, known as a botnet, the attacker aims to exhaust the target's resources, such as bandwidth or server capacity, making it inaccessible to legitimate users. DDoS attacks can range from simple to sophisticated, often exploiting vulnerabilities in networks or employing amplification techniques. Mitigating these attacks involves implementing security measures such as firewalls, intrusion detection systems, and specialized DDoS mitigation services.
 
 ## **Detecting**
@@ -52,7 +52,7 @@ In the context of malware detection in your project, the goal is to identify the
 In our project, the purpose of penetration testing (pen-testing) is to comprehensively assess the security posture by actively examining the computer file or folder paths to identify and describe any existing malware. Pentesting involves simulating real-world cyberattacks to evaluate the effectiveness of security measures and to uncover vulnerabilities that could potentially be exploited by malicious actors. By specifically focusing on malware detection within the designated file or folder paths, penetration testing aims to provide a detailed analysis of the system's resilience against malicious threats, enabling informed decisions for strengthening overall security measures and minimizing potential risks.
 
 ## **Preventing**
-Malware protection encompasses a multifaceted strategy to safeguard computer systems against malicious software. This involves deploying advanced antivirus and anti-malware solutions, utilizing firewalls for network security, implementing email filtering to thwart phishing attempts, and ensuring regular updates and patch management to address vulnerabilities. User education plays a crucial role in promoting safe online practices, while behavioral analysis and sandboxing technologies help identify and block suspicious activities in real-time. Additionally, endpoint security, backup procedures, and recovery plans contribute to a comprehensive defense, collectively reducing the risk of malware infections and mitigating potential impacts on data and systems.
+Malware protection encompasses a multifaceted strategy to safeguard computer systems against malicious software. This involves deploying advanced antivirus and anti-malware solutions, utilizing firewalls for network security, implementing email filtering to thwart phishing attempts, and ensuring regular updates and patch management to address vulnerabilities. User education plays a crucial role in promoting safe online practices, while behavioral analysis and sandboxing technologies help identify and block suspicious activities in real time. Additionally, endpoint security, backup procedures, and recovery plans contribute to a comprehensive defense, collectively reducing the risk of malware infections and mitigating potential impacts on data and systems.
 
 ## **Scanning**
 In our project, the malware scanning tool serves the purpose of assessing the extent of malware attacks within a designated path or folder. This tool systematically examines files and directories to identify and quantify the presence of malicious software. By providing a quantitative measure of the number of malware instances in the specified location, the scanning tool contributes valuable insights into the security status of the system, facilitating targeted remediation efforts and enhancing overall cybersecurity measures.
@@ -64,7 +64,7 @@ In our project, the malware scanning tool serves the purpose of assessing the ex
 ### $ The input path should not be enclosed in quotation marks.
 #### To Install python https://www.python.org/downloads/
 #### To Install git https://git-scm.com/downloads
-#### If you face any error of importing module just run the following commands in terminal
+#### If you face any error in importing module just run the following commands in terminal
 ### $ pip install os 
 ### $ pip install re 
 ### $ pip install time
