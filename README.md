@@ -42,7 +42,7 @@ Following the directory change to the required module, necessary for task execut
 Following the directory change to the required module, excluding the attacking module, proceed with the designated activities within the specified module for task execution.
 ## FOR ATTACKING
 `python DRipper.py -s <ip address> -t 135`
-## **Attacking **
+## **Attacking**
 A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the normal operation of a network, service, or website by overwhelming it with a massive volume of traffic. Utilizing multiple compromised computers or devices, known as a botnet, the attacker aims to exhaust the target's resources, such as bandwidth or server capacity, making it inaccessible to legitimate users. DDoS attacks can range from simple to sophisticated, often exploiting vulnerabilities in networks or employing amplification techniques. Mitigating these attacks involves implementing security measures such as firewalls, intrusion detection systems, and specialized DDoS mitigation services.
 
 ## **Detecting**
