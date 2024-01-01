@@ -4,8 +4,8 @@ This project, undertaken by our team comprising members `Madhavan M`, `Kannan B`
 
 # DEPLOYMENT OF SOFTWARE ON YOUR SYSTEM
 ### $ Python and Git are the required languages to run our package.
-### $ The input form scanning, detection, or penetration needs to be specified as the path of the file or folder.
-### $ It will clone our project directly for our repository. 
+### $ The input for scanning, detection, preventing or pentesting needs to be specified as the path of the file or folder.
+### $ It will clone our project directly from our repository. 
 
 # INSTALATION COMMANDS
 git clone https://github.com/Madhavan-012004/BATCH_7_MINIPROJECT.git
@@ -20,7 +20,7 @@ Both links are identical, you can choose either one from the provided options.
 
 Switching the directory to BATCH_7_MINIPROJECT to gain access to the project contained within that folder.
 
-`dir`
+`dir` or 'ls' (windows & Linux)
 
 ##It will exhibit the available modules, such as:
 ##### ATTACKING
@@ -42,7 +42,7 @@ Following the directory change to the required module, necessary for task execut
 Following the directory change to the required module, excluding the attacking module, proceed with the designated activities within the specified module for task execution.
 ## FOR ATTACKING
 `python DRipper.py -s <ip address> -t 135`
-## **Attacking**
+## **Attacking **
 A Distributed Denial of Service (DDoS) attack is a malicious attempt to disrupt the normal operation of a network, service, or website by overwhelming it with a massive volume of traffic. Utilizing multiple compromised computers or devices, known as a botnet, the attacker aims to exhaust the target's resources, such as bandwidth or server capacity, making it inaccessible to legitimate users. DDoS attacks can range from simple to sophisticated, often exploiting vulnerabilities in networks or employing amplification techniques. Mitigating these attacks involves implementing security measures such as firewalls, intrusion detection systems, and specialized DDoS mitigation services.
 
 ## **Detecting**
@@ -64,5 +64,10 @@ In our project, the malware scanning tool serves the purpose of assessing the ex
 ### $ The input path should not be enclosed in quotation marks.
 #### To Install python https://www.python.org/downloads/
 #### To Install git https://git-scm.com/downloads
+#### If you face any error of importing module just run the following commands in terminal
+### pip install os 
+### pip install re 
+### pip install time
+### pip install colorama
 
 
